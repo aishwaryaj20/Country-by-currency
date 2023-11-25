@@ -56,7 +56,7 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+See the section about [deployment] (https://extraordinary-starburst-e24176.netlify.app/) for more information.
 
 ### `npm run eject`
 
@@ -86,7 +86,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/m
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+This section has moved here: [https://extraordinary-starburst-e24176.netlify.app/]
 
 ### `npm run build` fails to minify
 
