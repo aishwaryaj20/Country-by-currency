@@ -1,0 +1,132 @@
+
+*{
+  
+    background-image: linear-gradient(-90deg, #b891f3 0%, #dbfce2 100%);
+      
+      }
+      .flex-container { 
+        padding: 0;
+        list-style-type: none;
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        text-align:center;
+    } 
+    .flex-container > div { 
+      flex-basis: 33.33%;
+    } 
+     
+      .boxborder {
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+      }
+      
+.box {
+    width: 400px;
+    height: 200px;
+  
+    margin: auto;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.flagcss {
+padding:  10px;
+}
+
+
+
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 30px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+input {
+  height: 25px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+button {
+  height: 38px;
+  border-radius: 5px;
+  padding: 10px;
+}
+.animate-charcterr
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #623ee4 0%,
+    #9273b4 29%,
+    #5a424a 67%,
+    #00ff2a 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  
+      font-size: 20px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.search-container {
+    display: flex;
+    max-width: 256px;
+    margin: 20px auto;
+  }
+  
+  
+  .search-input {
+    flex: 5; 
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px; 
+    outline: none;
+  }
+  
+  
+  .search-button {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 0 5px 5px 0; 
+    background-color: #f8f8f8;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  
+  .search-button:hover {
+    background-color: #e0e0e0;
+  }
+  
